@@ -1,0 +1,93 @@
+/*TABLET & MOBILE*/
+@media (max-width: 163.9375em){
+    .btn{
+        padding: 15px 16px;
+        line-height: 10px;
+    }
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    .contact-information{
+        font-size: 18px;
+        line-height: 2;
+    }
+    #footer .social-list {
+        font-size: 48px;
+    }
+    #footer .social-list a{
+        margin: 0 8px;
+    }
+    #footer .copy-right{
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+
+
+
+
+/*MOBILE*/
+@media (max-width: 46.1875em){
+   .mobile-mt-8{
+        margin-top: 8px !important;
+   }
+    .mobile-full-width{
+       width: 100% !important
+    }
+    .mobile-padl-16{
+        padding-left: 16px !important;
+    }
+    
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li{ /*Để cho các nav chuyển xuống hàng dọc*/
+        display: block;
+    }
+    #nav > li:hover > a{
+        width: 100%;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subNav{
+        position: initial; /*Mặc định*/
+        background: #333;
+    }
+    #nav .subNav a{
+        color: #fff;
+        padding: 5px 41px; /*Tối thiểu từ 42 đến 48px thì ngón tay dễ thao tác*/
+    }
+    /*Đóng mở khi bấm vào icon menu dùng javascript*/
+    #header .search-button{
+        display: none;
+    }
+    #header .mobile-menu-button{
+        display: block;
+    }
+
+
+    #content .member-img{
+        width: 60%;
+        height: 100%;
+    }
+    #content .mobile-col-full{
+        width: 100%;
+    }
+
+
+    .contact-form{
+        margin-top: 16px;
+    }
+    .contact-email{
+        margin-top: 8px;
+    }
+    
+}
